@@ -1,0 +1,84 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    user-select: none;
+ }
+body{
+    background-color: rgb(247, 247, 224);
+}
+.menu{
+    display: flex;
+    font-size: 25px;
+    padding: 12px 1px;
+}
+.m{
+    margin: 0px 10px;
+    list-style-type: none;
+    text-indent: 20px;
+    font-size: large;
+}
+.m a{
+    text-decoration: none;
+    color: white;
+}
+#navbar{
+    position: fixed;
+    width: 100%;
+    margin-left: 21%;
+    background-color: rgb(68, 63, 63);
+    z-index: 80;
+    border-radius: 20px;
+} 
+img{
+    width: 19%;
+    height: 100px;
+    position: fixed;
+    border-right: solid 12px rgb(238, 234, 234);
+}
+.sidebar{
+     list-style-type: none;
+     margin-top: 100px;
+     display: block;
+     position:fixed;
+     width: 20%;
+     height: 100%;
+     left: 0;
+     top: 0;
+     background: rgb(189, 184, 192);
+     text-align: left;
+     font-size: larger;
+     /* padding-left: 10px; */
+     overflow-y: scroll;
+     text-indent: 10px;
+ }
+    .sidebar li a{
+        color:indigo;
+    }
+    .sidebar li a:hover{
+        background-color:rgb(153, 147, 147);
+    }
+ .sidebar a{
+    text-decoration: none;
+    cursor: pointer;
+ }
+ .discription{
+     margin-left: 21%;
+    font-size: larger;
+    padding-left: 30px;
+    position: sticky;
+   }
+   .discription h1{
+    padding-top: 60px;                                                                                         
+}
+
+ .footer{
+    background:rgb(121, 24, 177);
+    border-radius: 10px;
+    color: white;
+    padding:9px;
+    padding-left: 100px;
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+    
+
